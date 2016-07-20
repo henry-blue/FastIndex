@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FastIndexView">
+        <attr name="TextSize" format="dimension"/>
+        <attr name="TextColor" format="reference|color"/>
+        <attr name="IsBold" format="boolean"/>
+        <attr name="TouchBackgroundColor" format="color|reference" />
+    </declare-styleable>
+</resources>
