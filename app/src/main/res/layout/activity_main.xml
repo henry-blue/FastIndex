@@ -6,10 +6,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.app.fastindex.MainActivity">
 
+    <ListView
+        android:id="@+id/list_view_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <com.app.fastindex.library.FastIndexView
         android:layout_alignParentRight="true"
         android:id="@+id/fast_index"
         android:layout_width="30dp"
         app:TextSize="15sp"
         android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_toast"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/tv_bg_style"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:visibility="gone"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true" />
 </RelativeLayout>
