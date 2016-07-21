@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public Handler mhanlder = new Handler();
-    
+
     private void showLetter(String letter) {
         mToast.setVisibility(View.VISIBLE);
         mToast.setText(letter);
